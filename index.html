@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css/styles.css" />
+    <title>Dashboard Customers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <section class="main__sidebar" id="menu">
+        <div class="main__sidebar-logo">
+          <img
+            src="./images/setting1.png"
+            alt="logo image"
+            class="main__sidebar-logo--img"
+          />
+          <p class="main__sidebar-logo--text">
+            Dashboard<span class="main__sidebar-logo--span">v.01</span>
+          </p>
+        </div>
+        <div class="main__sidebar-nav">
+          <ul>
+            <li>
+              <div class="main__sidebar-nav--links">
+                <img
+                  src="./images/icon_24_outline_key-square.png"
+                  alt="dashboard"
+                />
+                <a href="#">Dashboard</a>
+              </div>
+            </li>
+            <li>
+              <div class="main__sidebar-nav--links">
+                <img src="./images/3d-square1.png" alt="product" />
+                <a href="#">Product</a>
+              </div>
+            </li>
+            <li>
+              <div class="main__sidebar-nav--links">
+                <img src="./images/vector2.png" alt="customers" />
+                <a href="#">Customers</a>
+              </div>
+            </li>
+            <li>
+              <div class="main__sidebar-nav--links">
+                <img src="./images/wallet-money2.png" alt="income" />
+                <a href="#">Income</a>
+              </div>
+            </li>
+            <li>
+              <div class="main__sidebar-nav--links">
+                <img src="./images/discount-shape1.png" alt="promote" />
+                <a href="#">Promote</a>
+              </div>
+            </li>
+            <li>
+              <div class="main__sidebar-nav--links">
+                <img src="./images/message-question1.png" alt="help" />
+                <a href="#">Help</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="main__sidebar-profile">
+          <img
+            src="./images/profile_photo.png"
+            alt="profile photo"
+            class="main__sidebar-profile--img"
+          />
+          <p class="main__sidebar-profile--name">
+            Evano <br />
+            <span class="main__sidebar-profile--speciality"
+              >Project Manager</span
+            >
+          </p>
+        </div>
+      </section>
+      <div class="main__burger-menu">
+        <span></span>
+      </div>
+      <section class="main__content">
+        <div class="main__content--greetings">
+          <p>Hello Evano 👋🏼,</p>
+        </div>
+        <div class="main__content-info">
+          <div class="main__content-info--title">
+            <p>All Customers<br /><span>Active Members</span></p>
+            <input type="text" placeholder="&#128269; Search" />
+          </div>
+          <div class="main__content-info--customers">
+            <table>
+              <thead>
+                <tr>
+                  <th class="main__content-info--customers-name">
+                    Customer Name
+                  </th>
+                  <th class="main__content-info--customers-company">Company</th>
+                  <th class="main__content-info--customers-phone">
+                    Phone Number
+                  </th>
+                  <th class="main__content-info--customers-email">Email</th>
+                  <th class="main__content-info--customers-country">Country</th>
+                  <th class="main__content-info--customers-status">Status</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <span class="main__content-info--customers-active"
+                    >Active</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Floyd Miles</td>
+                <td>Yahoo</td>
+                <td>(205) 555-0100</td>
+                <td>floyd@yahoo.com</td>
+                <td>Kiribati</td>
+                <td>
+                  <span class="main__content-info--customers-inactive"
+                    >Inactive</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Ronald Richards</td>
+                <td>Adobe</td>
+                <td>(302) 555-0107</td>
+                <td>ronald@adobe.com</td>
+                <td>Israel</td>
+                <td>
+                  <span class="main__content-info--customers-inactive"
+                    >Inactive</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Marvin McKinney</td>
+                <td>Tesla</td>
+                <td>(252) 555-0126</td>
+                <td>marvin@tesla.com</td>
+                <td>Iran</td>
+                <td>
+                  <span class="main__content-info--customers-active"
+                    >Active</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Jerome Bell</td>
+                <td>Google</td>
+                <td>(629) 555-0129</td>
+                <td>jerome@google.com</td>
+                <td>Réunion</td>
+                <td>
+                  <span class="main__content-info--customers-active"
+                    >Active</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Kathryn Murphy</td>
+                <td>Microsoft</td>
+                <td>(406) 555-0120</td>
+                <td>kathryn@microsoft.com</td>
+                <td>Curaçao</td>
+                <td>
+                  <span class="main__content-info--customers-active"
+                    >Active</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Jacob Jones</td>
+                <td>Yahoo</td>
+                <td>(208) 555-0112</td>
+                <td>jacob@yahoo.com</td>
+                <td>Brazil</td>
+                <td>
+                  <span class="main__content-info--customers-active"
+                    >Active</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Kristin Watson</td>
+                <td>Facebook</td>
+                <td>(704) 555-0127</td>
+                <td>kristin@facebook.com</td>
+                <td>Åland Islands</td>
+                <td>
+                  <span class="main__content-info--customers-inactive"
+                    >Inactive</span
+                  >
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="main__content-info--pages">
+            <p class="main__content-info--pages-data">
+              Showing data 1 to 8 of 256K entries
+            </p>
+            <ul class="main__content-info--pages-links">
+              <li><a href="#">&#60;</a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">...</a></li>
+              <li><a href="#">40</a></li>
+              <li><a href="#">&#62;</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      const burgerMenu = document.querySelector(".main__burger-menu");
+      const overlay = document.querySelector(".main__sidebar");
+      burgerMenu.addEventListener("click", function () {
+        this.classList.toggle("close");
+        overlay.classList.toggle("overlay");
+      });
+    </script>
+  </body>
+</html>
